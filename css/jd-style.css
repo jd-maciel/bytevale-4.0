@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap'); /* font-family: 'Audiowide', cursive;  */
+
+#site{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;    
+    background-color: rgb(29, 255, 4);
+    z-index: 50;    
+}
+
+.section{
+    position: absolute;
+    top: 0px;
+    left: 0px;   
+    width: 100%;
+    height: 900px;
+
+   
+}
+
+/* SECTION 1 - COMEÇO */
+#section1{
+    
+    background-color: rgb(187, 187, 187);
+}
+
+.zigzag-bottom1 {
+    background: none repeat scroll 0 0 #1abc9c;
+    bottom: -80px;
+    height: 165px;
+    left: -5%;
+    position: absolute;
+    transform: rotate(3deg);
+    width: 105%;
+    
+    top: 850px;
+    background-color: #009EB3;
+} 
+
+.menu-top{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.055);
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.menu{
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 25px; 
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Audiowide', cursive;
+}
+
+.titulo-entrada{
+    position: relative;
+    float: left;
+    width: 90%;
+    height: 50px;
+    
+
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/*ANIMACAO LOGO -- COMEÇO */
+#bola2{
+    top: 189px;
+    left: 510px;
+}
+
+#bola3{
+    top: 410px;
+    left: 510px;
+}
+
+.logo-bola{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+    background-color: #009EB3;
+    transform: rotate(45deg);
+    z-index: 90;
+
+    animation: opacidade forwards;
+    animation-duration: 3s; 
+} 
+
+#logo-correcao{
+    position: absolute;
+    top: 300px;
+    left: 620px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(140, 179, 0);
+    transform: rotate(45deg);
+    z-index: 90; 
+       
+    animation: opacidade forwards;
+    animation-duration: 3s; 
+}
+
+.logo-marca{
+    position: absolute;
+    top: 270px;
+    left: 695px;
+    width: 450px;
+    height: 210px;
+    background-color: rgb(140, 179, 0);
+    z-index: 90;    
+
+    font-family: 'Audiowide', cursive;
+    font-size: 150px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    animation: opacidade forwards;
+    animation-duration: 3s; 
+}
+
+#logo-marca-marca{
+     color: rgb(255, 255, 255);
+}
+
+#logo-marca-sub{
+    height: 80px;
+    width: 210px;
+    top: 335px;
+    left: 1080px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 63px;
+
+    transform: rotate(270deg);    
+}
+/*ANIMACAO LOGO -- FIM */
+/* SECTION 1 - FIM */
+
+
+
+
+
+
+
+
+/* SECTION 2 - COMEÇO */
+#section2{
+    top: 900px;
+    background-color: #009EB3;
+}
+
+.zigzag-bottom2 {
+    background: none repeat scroll 0 0 #1abc9c;
+    bottom: -80px;
+    height: 165px;
+    left: -5%;
+    position: absolute;
+    transform: rotate(3deg);
+    width: 105%;
+    
+    top: 1750px;
+    background-color: rgb(187, 187, 187);
+}
+
+.quem-somos{
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 500px;  
+    margin-left: 10%;
+
+    margin-top: 50px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+/* SECTION 2 - FIM */
+
+
+
+
+
+
+/* SECTION 3 - COMEÇO */
+#section3{
+    top: 1800px;
+    height: 700px;
+    background-color: rgb(187, 187, 187);
+}
+
+
+.zigzag-bottom3 {
+    background: none repeat scroll 0 0 #1abc9c;
+    bottom: -80px;
+    height: 165px;
+    left: -5%;
+    position: absolute;
+    transform: rotate(3deg);
+    width: 105%;
+   
+    top: 2400px;
+    background-color :#009EB3;
+}
+
+.servico{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 500px;
+   
+    padding: 50px;
+
+}
+
+/* SECTION 3 - FIM */
+
+
+
+
+
+
+
+/* SECTION 4 - COMEÇO */
+#section4{
+    top: 2500px;
+    height: 1200px;
+    background-color: #009EB3;
+}
+
+
+.zigzag-bottom4 {
+    background: none repeat scroll 0 0 #1abc9c;
+    bottom: -80px;
+    height: 165px;
+    left: -5%;
+    position: absolute;
+    transform: rotate(3deg);
+    width: 105%;
+ 
+    top: 3550px;
+    background-color: rgb(187, 187, 187);
+}
+
+.portifolio-img{
+    position: relative;
+    float: left;
+    width: 90%;
+    height: 850px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.galeria{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+/* SECTION 4 - FIM */
+
+
+
+
+
+/* SECTION 5 - COMEÇO */
+#section5{
+    height: 900px;
+    top: 3600px;
+    background-color: rgb(187, 187, 187);
+}
+
+.zigzag-bottom5 {
+    background: none repeat scroll 0 0 #1abc9c;
+    bottom: -80px;
+    height: 165px;
+    left: -5%;
+    position: absolute;
+    transform: rotate(3deg);
+    width: 105%;
+    
+    top: 4450px;
+    background-color: #009EB3;
+}
+
+.msg{
+    position: relative;
+    float: left;
+    width: 95%;
+    height: 600px;
+  
+    margin-top: 100px;
+    margin-left: 2.5%;
+    padding: 50px;
+}
+
+
+
+/* SECTION 5 - FIM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION 6 - COMEÇO */
+#section6{
+    height: 400px;
+    top: 4500px;
+    background-color: #009EB3;
+}
+
+.bottom{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 300px;   
+    z-index: 50;
+    margin-left: 3%;
+}
+
+.texto-face{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px; 
+
+    font-size: 20px;
+    font-family: 'Audiowide', cursive; 
+    color: rgb(255, 255, 255);
+}
+
+.face{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+.social-bottom{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(245, 29, 29, 0.082);
+    margin-top: 15px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4px !important;
+}
+
+.bottom-copyright{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+#endereco{
+  padding-top: 30px;
+  color: rgb(255, 255, 255);
+}
+
+#empresa{
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+/* ICONS - SOCIAL - COMEÇO */
+a:link{
+    color:  rgb(241, 241, 241); /*para nao mudar a cor do link precisa add os 4 estados, estado 1 */
+    /* text-decoration: none;  --- para nao ter decoraçao nenhuma no link*/ 
+    text-decoration: none; 
+}
+
+a:visited{
+    color:  rgb(255, 255, 255); /*para nao mudar a cor do link precisa add os 4 estados, estado 2  */
+    text-decoration: none; 
+}
+
+a:active{
+    color:  rgb(255, 255, 255); /*para nao mudar a cor do link precisa add os 4 estados, estado 3  */
+    text-decoration: none; 
+}
+
+a:hover{
+    color:  rgb(255, 255, 255); /*para nao mudar a cor do link precisa add os 4 estados, estado 4  */
+    text-decoration: none; 
+}
+
+.fab{
+    font-size: 32px !important;
+}
+
+
+/* ICONS - SOCIAL - FIM */
+/* SECTION 6 - FIM */
+
+
+
+
+@keyframes opacidade{
+    0%{
+        opacity: 0; 
+        
+    }
+    25%{
+        opacity: 25px;
+        opacity: 0.1;
+       
+        
+    }
+    50%{
+        opacity: 50px;
+        opacity: 0.3;
+     
+        
+    }
+    75%{
+        opacity: 75px;
+        opacity: 0.5;
+       
+    }
+    100%{
+        opacity: 100%;
+        opacity: 1;
+        
+        
+       
+    }
+}
+
